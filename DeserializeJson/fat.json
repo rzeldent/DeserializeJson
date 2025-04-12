@@ -1,6 +1,8 @@
 {
   "Process": "Process",
   "Parameters": {
+    "String": "Koetjeboe",
+    "Float": 1.5,
     "Timeout": "00:00:10",
     "Size": {
       "Width": 1920,

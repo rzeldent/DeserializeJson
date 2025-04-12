@@ -13,6 +13,12 @@ var json = File.ReadAllText("fat.json");
 
 var fat = JsonSerializer.Deserialize<Fat>(json, jsonOptions);
 
+var @string = fat.Parameters["String"].GetString();
+Console.WriteLine($"String: {@string}");
+
+var @float = fat.Parameters["Float"].GetSingle();
+Console.WriteLine($"FLoat: {@float}");
+
 var timeout = fat.Parameters["Timeout"].Deserialize<TimeSpan>();
 Console.WriteLine($"Timeout: {timeout}");
 
