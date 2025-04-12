@@ -1,0 +1,10 @@
+{
+  "Process": "Process",
+  "Parameters": {
+    "Timeout": "00:00:10",
+    "Size": {
+      "Width": 1920,
+      "Height": 1080
+    }
+  }
+}
